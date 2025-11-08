@@ -5,4 +5,4 @@ Resources:
   MyS3Bucket:
     Type: 'AWS::S3::Bucket'
     Properties:
-      BucketName: !Sub 'yt-cf-demo-louie-s3-bucket'
+      BucketName: 'iac-zeq-demo'

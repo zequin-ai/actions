@@ -22,5 +22,4 @@ jobs:
         run: |
           aws cloudformation deploy \
             --template-file simple_s3_template.yaml \
-            --stack-name yt-cf-demo-louie-stack \
-            --capabilities CAPABILITY_NAMED_IAM
+            --stack-name iac-demo-git
